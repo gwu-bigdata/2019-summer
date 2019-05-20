@@ -1,5 +1,5 @@
-**This syllabus is effective as of Monday, May 20, 2019 at 11:17
-AM**
+**This syllabus is effective as of Monday, May 20, 2019 at 04:07
+PM**
 
 # DNSC 6278 Big Data Analytics<br/>the George Washington University<br/>Summer 2019
 
@@ -67,17 +67,17 @@ courses before the course begins.
 
 ## Books, Software and Cloud Resources
 
-We have chosen several reference books for this course that cover
-different parts of the material. We will assign readings for each class
-from these books. These books are all available on [Safari Books
-Online](https://www.safaribooksonline.com/), and you should be able to
-access these resources. Our understanding is that as a GWU student, you
-have access to these resources.
-
 We will also provide supplemental materials (articles, links, videos,
 etc.) to complement the books.
 
-### Required Books (for assigned readings)
+### Books (for assigned readings)
+
+We have chosen several reference books for this course that cover
+different parts of the material. We will assign readings for each class
+from these books. These books are available on [Safari Books
+Online](https://www.safaribooksonline.com/), and you should be able to
+access these resources. Our understanding is that as a GWU student, you
+have access to these resources.
 
   - Benjamin Bengfort, Jenny Kim (2016). *Data Analytics with Hadoop: An
     Introduction for Data Scientists*. O’Reilly Media. ISBN:
@@ -85,16 +85,11 @@ etc.) to complement the books.
   - Bill Chambers, Matei Zaharia (2018). *Spark: The Definitive Guide*.
     O’Reilly Media. ISBN: 9781491912218.
 
-### Recommended Books for Reference
+### Papers
 
-  - Tomasz Drabas, Denny Lee (2017). *Learning Pyspark*. Packt
-    Publishing. ISBN: 9781786463708.
-  - Ofer Mendelevitch, Casey Stella, Douglas Eadline (2016). *Practical
-    Data Science with Hadoop and Spark: Designing and Building Effective
-    Analytics at Scale*. Addison-Wesley Professional. ISBN:
-    9780134024141.
-  - Krishna Sankar (2016). *Fast Data Processing with Spark 2 - Third
-    Edition*. Packt Publishing. ISBN: 9781784392574.
+We have chosen several seminal papers in the big data space to
+complement the book. The papers discuss the tools and history in much
+more detail. Topics in the papers will be included in the final exam.
 
 ### Cloud Resources
 
