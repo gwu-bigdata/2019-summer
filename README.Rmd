@@ -107,7 +107,7 @@ Details for the project can be found [here](project.md).
 
 ### Final Exam
 
-There will be an in-class final exam during the last class session. It will be closed everything (no books, slides, computers, etc.) You will only be allowed to bring along with you 1 letter-sizes paper of your own notes ('cheat sheet'), you can use both sides. The exam will be comprehensive and will cover topics from the readings and in-class discussion. 
+There will be an in-class final exam during the last class session. It will be closed everything (no books, slides, computers, etc.) You will only be allowed to bring along with you 1 letter-sized paper of your own notes ('cheat sheet'), you can use both sides. The exam will be comprehensive and will cover topics from the readings and in-class discussion. 
 
 ### Grading
 
@@ -164,8 +164,7 @@ The code of academic integrity applies to all courses in the George Washington S
 
 ### Collaboration Policy
 
-* **In-class labs:** you may collaborate
-You may collaborate with other students during in-class labs to facilitate collective learning. 
+* **In-class labs:** you may collaborate with other students during in-class labs to facilitate collective learning. 
 * **Group project:** by nature, it is a group project and collaboration is to be confined within groups. **You may not collaborate across groups.**
 * **Individual assignments:**
   * You may discuss ideas on how to solve the problem with other students

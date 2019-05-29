@@ -1,4 +1,4 @@
-**This syllabus is effective as of Monday, May 20, 2019 at 04:07
+**This syllabus is effective as of Wednesday, May 29, 2019 at 04:23
 PM**
 
 # DNSC 6278 Big Data Analytics<br/>the George Washington University<br/>Summer 2019
@@ -173,7 +173,7 @@ Details for the project can be found [here](project.md).
 
 There will be an in-class final exam during the last class session. It
 will be closed everything (no books, slides, computers, etc.) You will
-only be allowed to bring along with you 1 letter-sizes paper of your own
+only be allowed to bring along with you 1 letter-sized paper of your own
 notes (‘cheat sheet’), you can use both sides. The exam will be
 comprehensive and will cover topics from the readings and in-class
 discussion.
@@ -203,18 +203,18 @@ In the readings, “DAWH” is *Data Analytics with Hadoop*, and “Spark” is
 *Spark: The Definitive Guide*. Papers are referenced by author and
 title.
 
-| Class | Date       | Topics                                                      | Lab                                                                                               | Readings                                                                                                      | Notes                          |
-| ----: | :--------- | :---------------------------------------------------------- | :------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------ | :----------------------------- |
-|     1 | Tue May-21 | Course Overview, Big Data, Cloud Computing                  | [Setting Up](https://github.com/bigdatateaching/lab-setting-up)                                   |                                                                                                               | This class meets on a Tuesday. |
-|     2 | Wed May-29 | Introduction to Hadoop & MapReduce, Distributed Filesystems | [Hadoop, HDFS, EMR](https://github.com/bigdatateaching/lab-amazonemr-hdfs)                        | 1\) DAWH Ch. 2<br/>2) Dean, Ghemawat - MapReduce…<br/>3) Vavilapalli et al. - Apache Hadoop YARN              |                                |
-|     3 | Wed Jun-05 | Hadoop Streaming                                            | [Hadoop Streaming](https://github.com/bigdatateaching/lab-hadoop-streaming)                       | DAWH Ch. 3,5                                                                                                  | **Project Proposals Due**      |
-|     4 | Wed Jun-12 | Pig and Hive                                                | [Pig & Hive](https://github.com/bigdatateaching/lab-pig-hive)                                     | 1\) DAWH Ch. 6, 8(175-184)<br/>2) Huai et. al - Advancements in Hive<br/>3) Gates et. al - the PIG Experience | **A1 (Hadoop) due**            |
-|     5 | Wed Jun-19 | Spark introduction, Resilient Distributed Datasets, PySpark | [Intro to Spark](https://github.com/bigdatateaching/lab-intro-spark-rdd)                          |                                                                                                               | A2 (Pig/Hive) due\*\*          |
-|     6 | Wed Jun-26 | Spark DataFrames, SparkSQL                                  | [DataFrame API and Spark SQL](https://github.com/bigdatateaching/lab-spark-sql)                   |                                                                                                               |                                |
-|     7 | Wed Jul-03 | SparkML, intro to GraphX                                    | [Machine Learning with Spark](https://github.com/bigdatateaching/lab-machine-learning-with-spark) |                                                                                                               | A3 (Spark SQL, RDD) due        |
-|     8 | Wed Jul-10 | Spark Streaming                                             | [Spark Streaming](https://github.com/bigdatateaching/lab-spark-streaming)                         |                                                                                                               |                                |
-|     9 | Wed Jul-17 | TBD                                                         |                                                                                                   |                                                                                                               | **Project Presentations**      |
-|    10 | Wed Jul-24 | Wrap Up                                                     |                                                                                                   |                                                                                                               | In class Final Exam            |
+| Class | Date       | Topics                                                                        | Lab                                                                                                                 | Readings                                                                                                             | Notes                                                               |
+| ----: | :--------- | :---------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------ |
+|     1 | Tue May-21 | Course Overview, Big Data, Cloud Computing                                    | [Setting Up](https://github.com/bigdatateaching/lab-setting-up)                                                     |                                                                                                                      | **This class meets on a Tuesday.**                                  |
+|     2 | Wed May-29 | Introduction to Hadoop & MapReduce, Distributed Filesystems, Hadoop Streaming | [Hadoop, HDFS, EMR, Hadoop Streaming](https://github.com/bigdatateaching/lab-mapreduce-hadoop-hdfs-hadoopstreaming) | 1\) DAWH Ch. 2<br/>2) Dean, Ghemawat - MapReduce…<br/>3) Vavilapalli et al. - Apache Hadoop YARN<br/>4) DAWH Ch. 3,5 |                                                                     |
+|     3 | Wed Jun-05 | MapReduce Design Patterns, Pig and Hive                                       | [Pig & Hive](https://github.com/bigdatateaching/lab-pig-hive)                                                       | 1\) DAWH Ch. 6, 8(175-184)<br/>2) Huai et. al - Advancements in Hive<br/>3) Gates et. al - the PIG Experience        | **A1 (Hadoop Streaming) due**                                       |
+|     4 | Wed Jun-12 | Spark introduction, Resilient Distributed Datasets, PySpark                   | [Intro to Spark](https://github.com/bigdatateaching/lab-intro-spark-rdd)                                            | Spark Ch. 1-3, 12, 13, 32                                                                                            | **A2 (Pig/Hive) due**                                               |
+|     5 | Wed Jun-19 | Spark DataFrames, SparkSQL                                                    | [DataFrame API and Spark SQL](https://github.com/bigdatateaching/lab-spark-sql)                                     | Spark Ch. 4-11                                                                                                       | **Project proposals due**                                           |
+|     6 | Wed Jun-26 | SparkML, GraphX                                                               | [Machine Learning with Spark](https://github.com/bigdatateaching/lab-machine-learning-with-spark)                   | Spark Ch. 24-30                                                                                                      | **A3 (Spark SQL, RDD) due**                                         |
+|     7 | Wed Jul-03 | Spark Streaming                                                               | [Spark Streaming](https://github.com/bigdatateaching/lab-spark-streaming)                                           | Spark Ch. 20, 21                                                                                                     | **A4 (Spark Machine Learning) due**                                 |
+|     8 | Wed Jul-10 | TBD                                                                           |                                                                                                                     |                                                                                                                      | **A5 (Large scale dataset EDA and ML) due**                         |
+|     9 | Wed Jul-17 | TBD                                                                           |                                                                                                                     |                                                                                                                      | **Project Presentations**                                           |
+|    10 | Wed Jul-24 | Wrap Up                                                                       |                                                                                                                     |                                                                                                                      | **In class Final Exam**<br/><br/>**Project writeup due Fri Jul-26** |
 
 ## Policies & Expectations
 
@@ -284,9 +284,8 @@ at <http://www.gwu.edu/~ntegrity/code.html>
 
 ### Collaboration Policy
 
-  - **In-class labs:** you may collaborate You may collaborate with
-    other students during in-class labs to facilitate collective
-    learning.
+  - **In-class labs:** you may collaborate with other students during
+    in-class labs to facilitate collective learning.
   - **Group project:** by nature, it is a group project and
     collaboration is to be confined within groups. **You may not
     collaborate across groups.**

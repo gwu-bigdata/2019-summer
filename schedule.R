@@ -26,65 +26,65 @@ l01 <- tibble(
   lab = "[Setting Up](https://github.com/bigdatateaching/lab-setting-up)",
   paper = "" ,
   reading = "",
-  notes = "This class meets on a Tuesday."
+  notes = "**This class meets on a Tuesday.**"
 )
 
 l02 <- tibble(
-  topics = "Introduction to Hadoop & MapReduce, Distributed Filesystems",
-  lab = "[Hadoop, HDFS, EMR](https://github.com/bigdatateaching/lab-amazonemr-hdfs)",
+  topics = "Introduction to Hadoop & MapReduce, Distributed Filesystems, Hadoop Streaming",
+  lab = "[Hadoop, HDFS, EMR, Hadoop Streaming](https://github.com/bigdatateaching/lab-mapreduce-hadoop-hdfs-hadoopstreaming)",
   paper = "",
-  reading = "1) DAWH Ch. 2<br/>2) Dean, Ghemawat - MapReduce...<br/>3) Vavilapalli et al. - Apache Hadoop YARN",
+  reading = "1) DAWH Ch. 2<br/>2) Dean, Ghemawat - MapReduce...<br/>3) Vavilapalli et al. - Apache Hadoop YARN<br/>4) DAWH Ch. 3,5",
   notes = ""
 )
 
 
 l03 <- tibble(
-  topics = "Hadoop Streaming",
-  lab = "[Hadoop Streaming](https://github.com/bigdatateaching/lab-hadoop-streaming)",
-  paper = "",
-  reading = "DAWH Ch. 3,5",
-  notes = "**Project Proposals Due**"
-)
-
-
-l04 <- tibble(
-  topics = "Pig and Hive",
+  topics = "MapReduce Design Patterns, Pig and Hive",
   paper = "",
   lab = "[Pig & Hive](https://github.com/bigdatateaching/lab-pig-hive)",
   reading = "1) DAWH Ch. 6, 8(175-184)<br/>2) Huai et. al - Advancements in Hive<br/>3) Gates et. al - the PIG Experience",
-  notes = "**A1 (Hadoop) due**"
+  notes = "**A1 (Hadoop Streaming) due**"
 )
 
-l05 <- tibble(
+l04 <- tibble(
   topics = "Spark introduction, Resilient Distributed Datasets, PySpark",
   paper = "",
   lab = "[Intro to Spark](https://github.com/bigdatateaching/lab-intro-spark-rdd)",
-  reading = "",
-  notes = "A2 (Pig/Hive) due**"
+  reading = "Spark Ch. 1-3, 12, 13, 32",
+  notes = "**A2 (Pig/Hive) due**"
 )
 
-l06 <- tibble(
+l05 <- tibble(
   topics = "Spark DataFrames, SparkSQL",
   paper = "",
   lab = "[DataFrame API and Spark SQL](https://github.com/bigdatateaching/lab-spark-sql)",
-  reading = "",
-  notes = ""
+  reading = "Spark Ch. 4-11",
+  notes = "**Project proposals due**"
+)
+
+l06 <- tibble(
+  topics = "SparkML, GraphX",
+  paper = "",
+  lab = "[Machine Learning with Spark](https://github.com/bigdatateaching/lab-machine-learning-with-spark)",
+  reading = "Spark Ch. 24-30",
+  notes = "**A3 (Spark SQL, RDD) due**"
 )
 
 l07 <- tibble(
-  topics = "SparkML, intro to GraphX",
-  paper = "",
-  lab = "[Machine Learning with Spark](https://github.com/bigdatateaching/lab-machine-learning-with-spark)",
-  reading = "",
-  notes = "A3 (Spark SQL, RDD) due"
-)
-
-l08 <- tibble(
   topics = "Spark Streaming",
   lab = "[Spark Streaming](https://github.com/bigdatateaching/lab-spark-streaming)",
   paper = "",
+  reading = "Spark Ch. 20, 21",
+  notes = "**A4 (Spark Machine Learning) due**"
+)
+
+
+l08 <- tibble(
+  topics = "TBD",
+  lab = "",
+  paper = "",
   reading = "",
-  notes = ""
+  notes = "**A5 (Large scale dataset EDA and ML) due**"
 )
 
 
@@ -101,7 +101,7 @@ l10 <- tibble(
   lab = "",
   paper = "",
   reading = "",
-  notes = "In class Final Exam"
+  notes = "**In class Final Exam**<br/><br/>**Project writeup due Fri Jul-26**"
 )
 
 
@@ -110,7 +110,6 @@ sched <- sched %>%
   bind_cols(lapply(sessions, get) %>%  bind_rows())
 
 sched <- 
-
   sched %>%
   mutate(date = format(date, "%a %b-%d")) %>%
   select(session, date, topics, lab, reading, notes)
