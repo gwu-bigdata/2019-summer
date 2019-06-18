@@ -5,7 +5,7 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE)
 ```
 
 **This syllabus is effective as of `r strftime(Sys.time(), "%A,  %B %d, %Y at %I:%M %p", tz = "America/New_York")`**
@@ -18,7 +18,7 @@ knitr::opts_chunk$set(echo = FALSE)
 - **Classroom:** Duques 255
 - **Time:** Wednesday 6:00-9:00pm
 - **TA's:** Swetha Kalla (swetha at gwmail.gwu.edu)
-- **TA Office Hours:** TBD
+- **TA Office Hours:** By appointment
 <br/>
 - **Course Description:** Data is everywhere! Many times, it's just too big to work with traditional tools. This is a hands-on, practical workshop style course about using cloud computing resources to do analysis and manipulation of datasets that are too large to fit on a single machine and/or analyzed with traditional tools. The course will focus on Spark, MapReduce, the Hadoop Ecosystem and more.<br/>
 You will understand how to acquire and/or ingest the data, and then massage, clean, transform, analyze, and model it within the context of big data analytics. You will be able to think more programmatically and logically about your big data needs, tools and issues. 
@@ -130,7 +130,7 @@ This calendar is subject to change. We will make make any changes known in advan
 
 In the readings, "DAWH" is _Data Analytics with Hadoop_, and "Spark" is _Spark: The Definitive Guide_. Papers are referenced by author and title.
 
-```{r, echo = FALSE, results="asis"} 
+```{r, echo = FALSE, results="asis", warning = FALSE} 
 source("schedule.R")
 sched %>%
   knitr:::kable(., "markdown",

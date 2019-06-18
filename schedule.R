@@ -47,19 +47,19 @@ l03 <- tibble(
 )
 
 l04 <- tibble(
-  topics = "Spark introduction, Resilient Distributed Datasets, PySpark",
+  topics = "",
   paper = "",
-  lab = "[Intro to Spark](https://github.com/bigdatateaching/lab-intro-spark-rdd)",
+  lab = "",
   reading = "Spark Ch. 1-3, 12, 13, 32",
-  notes = "**A2 (Pig/Hive) due**"
+  notes = "No class meeting today.<br/><br/>**A2 (Pig/Hive) due Sun Jun-16**"
 )
 
 l05 <- tibble(
-  topics = "Spark DataFrames, SparkSQL",
-  paper = "",
-  lab = "[DataFrame API and Spark SQL](https://github.com/bigdatateaching/lab-spark-sql)",
-  reading = "Spark Ch. 4-11",
-  notes = "**Project proposals due**"
+  topics = "Spark introduction, Resilient Distributed Datasets, PySpark, Spark DataFrames, SparkSQL",
+  paper = "Zaharia et al. - 2016 - Apache Spark A Unified Engine",
+  lab = "[Intro to Spark](https://github.com/bigdatateaching/lab-intro-spark-rdd)<br/><br/>[DataFrame API and Spark SQL](https://github.com/bigdatateaching/lab-spark-sql)",
+  reading = "Zaharia et al. - Apache Spark: A Unified Engine for Big Data Processing<br/><br/>Spark Ch. 4-11",
+  notes = "**Project proposals due Sun Jun-23**"
 )
 
 l06 <- tibble(
@@ -67,7 +67,7 @@ l06 <- tibble(
   paper = "",
   lab = "[Machine Learning with Spark](https://github.com/bigdatateaching/lab-machine-learning-with-spark)",
   reading = "Spark Ch. 24-30",
-  notes = "**A3 (Spark SQL, RDD) due**"
+  notes = "**A3 (Spark SQL, RDD) due Sun Jun-30**"
 )
 
 l07 <- tibble(
@@ -75,33 +75,33 @@ l07 <- tibble(
   lab = "[Spark Streaming](https://github.com/bigdatateaching/lab-spark-streaming)",
   paper = "",
   reading = "Spark Ch. 20, 21",
-  notes = "**A4 (Spark Machine Learning) due**"
+  notes = "**A4 (Spark Machine Learning) due Sun Jul-7**"
 )
 
 
 l08 <- tibble(
-  topics = "TBD",
+  topics = "Guest speaker JT Wolohan.",
   lab = "",
   paper = "",
   reading = "",
-  notes = "**A5 (Large scale dataset EDA and ML) due**"
+  notes = "**A5 due Sun Jul-14**"
 )
 
 
 l09 <- tibble(
-  topics = "TBD",
+  topics = "Project Presentations",
   lab = "",
   paper = "",
   reading = "",
-  notes = "**Project Presentations**"
+  notes = ""
 )
 
 l10 <- tibble(
-  topics = "Wrap Up",
+  topics = "Wrap Up, in class Final Exam",
   lab = "",
   paper = "",
   reading = "",
-  notes = "**In class Final Exam**<br/><br/>**Project writeup due Fri Jul-26**"
+  notes = "**Project writeup due Fri Jul-26**"
 )
 
 
